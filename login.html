@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Hi+Melody&family=Jua&family=Nanum+Gothic:wght@700&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <style>
+        *{
+            text-decoration-line: none;
+        }
+        #headAndMainWrap {
+        margin: 0px;
+        padding: 0px;
+        text-decoration-line: none;
+        }
+        header {
+            width: 1190px;
+            margin: 0 auto;
+        }
+        header img {
+            margin: 10px 0px 10px 10px;
+            width: 300px; height: 70px;
+        }
+        #select-lang {
+            width: 80px; height: 25px;
+            float: right;
+            margin-top: -85px;
+            font-family: 'Jua', sans-serif;
+        }
+        main {
+            text-align: center;
+            border-bottom: 2px solid gray;
+            margin-top: 60px;
+        }
+        main div input {
+            box-sizing: border-box;
+            width: 500px; height: 50px;
+            font-family: 'Jua', sans-serif;
+            font-size: 22px;
+            padding-left: 15px;
+        }
+        main div button {
+            font-family: 'Jua', sans-serif;
+            border: none;
+            font-size: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+
+        }
+        #signInBtn {
+            width: 500px; height: 50px;
+            background-color: rgb(167, 194, 163);
+        }
+        #registerBtn {
+            width: 500px; height: 50px;
+            background-color: #ffe18b;
+        }
+        #findIdBtn {
+            width: 240px; height: 50px;
+            background-color: #c5daf0;
+        }
+        #findPwBtn {
+            width: 240px; height: 50px;
+            background-color: #c5daf0;
+            margin-left: 10px ;
+        }
+        #IdAndPwBtn {
+            margin: 0px auto;
+            margin-bottom: 140px;
+            
+        }
+        main div img {
+            width: 200px; height: auto;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            font-family: 'Jua', sans-serif;
+        }
+        footer a {
+            color: black;
+            font-size: 12px;
+        }
+        footer img {
+            width: 50px; height: auto;
+        }
+        footer div {
+            margin-top: -10px;
+        }
+        #signInBtn:hover{
+            background-color: rgb(76, 114, 68);
+            color: white;
+        }
+        #registerBtn:hover{
+            background-color: #ffd153;
+            color: white;
+        }
+        #findIdBtn:hover{
+            background-color: #4d7daf;
+            color: white;
+        }
+        #findPwBtn:hover{
+            background-color: #4d7daf;
+            color: white;
+        }
+        </style>
+</head>
+<body>
+    <div id="headAndMainWrap">
+    <header>
+        <div class="head">
+            <div><a href="main.html"><img src="images/logo.png" alt="travel mate logo"></a></div>
+        </div>
+        <div>
+            <select id="select-lang">
+                <option>한국어</option>
+                <option>English</option>
+                <option>日本語</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <br>
+        <div>
+            <a href="login.html"><img src="images/logo3.png"></a>
+        </div>
+        <br>
+        <div>
+            <input type="text" placeholder="ID">
+        </div>
+        <br>
+        <div>
+            <input type="text" placeholder="PW">
+        </div>
+        <br>
+        <div>
+            <a href="main.html"><button id="signInBtn">Sign in</button></a>
+        </div>
+        <div>
+            <a href="register.html"><button id="registerBtn">회원가입</button></a>
+            </div>
+        <div id="IdAndPwBtn">
+            <a href="findID.html"><button id="findIdBtn">아이디 찾기</button></a>
+            <a href="findPW.html"><button id="findPwBtn">비밀번호 찾기</button></a>
+        </div>
+        <br>
+        <br>
+        <br>
+    </main>
+    </div>
+    <footer>
+        <br>
+        <br>
+        <div>
+            <a href="main.html">Travel Mate Corp. All Right Reserved. <img src="images/logo3.png"></a>
+        </div>
+    </footer>
+</body>
+</html>
