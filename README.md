@@ -6,7 +6,6 @@
 
 ### 디자인 시안
 
-![title](figure/figure.png)
 ![title](figure/main.png)
 ![title](figure/login.png)
 
